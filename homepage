@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Health Haven</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header section -->
+  <header>
+    <h1>Welcome to Mental Health Haven</h1>
+    <p>Your calm and safe space for mental wellness.</p>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+
+    <!-- Summary Section -->
+    <section id="summary">
+      <h2>About Our Website</h2>
+      <p>
+        Mental Health Haven is a safe place to track your mood, practice calming exercises,
+        take quick stress tests, and find resources to help you feel better.
+      </p>
+    </section>
+
+    <!-- Motivational Quote Section -->
+    <section id="quote-section">
+      <h2>Motivational Quote</h2>
+      <p id="quote">Loading...</p>
+      <button id="new-quote-btn">New Quote</button>
+    </section>
+
+    <!-- Daily Self-Care Tip Section -->
+    <section id="tip-section">
+      <h2>Daily Self-Care Tip</h2>
+      <p id="daily-tip">Loading...</p>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Mental Health Haven</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
