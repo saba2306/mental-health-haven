@@ -1,0 +1,31 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const quoteText = document.getElementById("quote");
+  const tipText = document.getElementById("daily-tip");
+  const newQuoteBtn = document.getElementById("new-quote-btn");
+
+  const quotes = [
+    "You are stronger than your bad days.",
+    "One small step is still progress.",
+    "You matter more than you know.",
+    "Breathe. You are safe here.",
+    "Healing is not linear — and that’s okay."
+  ];
+  tips = [
+    "Drink water and take a 30-second pause.",
+    "Spend 5 minutes focusing on your breathing.",
+    "Stretch your shoulders and neck gently.",
+    "Write down one thing you're grateful for.",
+    "Play soft calming music for a minute."
+  ];
+  
+  // Load initial content
+  quoteText.innerText = quotes[Math.floor(Math.random() * quotes.length)];
+  tipText.innerText = tips[Math.floor(Math.random() * tips.length)];
+
+  // Button click → new quote
+  newQuoteBtn.addEventLiconststener("click", () => {
+    quoteText.innerText = quotes[Math.floor(Math.random() * quotes.length)];
+  });
+});
+
+
